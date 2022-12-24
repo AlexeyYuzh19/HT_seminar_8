@@ -38,7 +38,6 @@ int CheckInputNumber(string Text)
 int CheckSize(string text)
 {
 metka:
-
     int size = CheckInputNumber(text);
 
     if (size < 0)
@@ -47,7 +46,6 @@ metka:
         Console.WriteLine("Задано отрицательное значение, попробуйте еще раз.");
         goto metka;
     }
-
     if (size == 0)
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -77,7 +75,6 @@ void PrintArray(int[,] array)
         }
         System.Console.WriteLine();
     }
-
     Console.ResetColor();
     System.Console.WriteLine();
 }
@@ -113,9 +110,7 @@ int[,] MakeSnakeArrayCode()
 
     int LinesStart = 0, LinesEnd = 0, ColumnsStart = 0, ColumnsEnd = 0;
 
-    int ArrayNumber = 1;
-    int i = 0;
-    int j = 0;
+    int ArrayNumber = 1, i = 0, j = 0;
 
     while (ArrayNumber <= lines * columns)
     {
@@ -150,7 +145,7 @@ int[,] SnakeArr = PrimitivCodeSnakeArray();
 
 PrintArray(SnakeArr);
 
-// Вариант 2 кода - формирование змейкой массива заданного размера.
+// Вариант 2 кода - формирование спирально массива заданного размера.
 
 Console.ForegroundColor = ConsoleColor.DarkMagenta;
 System.Console.WriteLine("Вариант заполнения спиралью массива заданного размера.\n");
