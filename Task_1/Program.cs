@@ -148,9 +148,9 @@ int[,] DescendSortArray(int[,] Array)
 
 // Код задачи
 
-EnterArrayParameter(out int size_0, out int size_1, out int leftRange, out int rightRange);
+EnterArrayParameter(out int lines, out int columns, out int leftRange, out int rightRange);
 
-int[,] Array = MakeArray(size_0, size_1, leftRange, rightRange);
+int[,] Array = MakeArray(lines, columns, leftRange, rightRange);
 
 System.Console.WriteLine("\nИз случайных целых чисел сформирован : ");
 
