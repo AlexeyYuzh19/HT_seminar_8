@@ -139,7 +139,7 @@ int[,] MakeSnakeArrayCode()
 // Вариант 1 кода - примитивный и буквально по смыслу текста задачи.
 
 Console.ForegroundColor = ConsoleColor.DarkMagenta;
-System.Console.WriteLine("\nВариант заполнения массива спиралью - примитивный и буквально по смыслу текста задачи.");
+System.Console.WriteLine("\nВариант заполнения массива спирально - примитивный и буквально по смыслу текста задачи.");
 
 int[,] SnakeArr = PrimitivCodeSnakeArray();
 
