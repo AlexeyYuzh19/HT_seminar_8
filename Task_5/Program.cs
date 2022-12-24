@@ -148,7 +148,7 @@ PrintArray(SnakeArr);
 // Вариант 2 кода - формирование спирально массива заданного размера.
 
 Console.ForegroundColor = ConsoleColor.DarkMagenta;
-System.Console.WriteLine("Вариант заполнения спиралью массива заданного размера.\n");
+System.Console.WriteLine("Вариант заполнения спирально массива заданного размера.\n");
 
 int[,] AwesomeSnakeArray = MakeSnakeArrayCode();
 
